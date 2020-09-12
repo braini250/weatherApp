@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>my Weather</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta
+  name="weather app"           
+  content="this app will allow user to enter the city and he get the weather foreast ot the city or country">	
+	<link rel="stylesheet" href="index.css"> 
+	<meta name="Description" content="weather search">
+	
+
+	
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body>
+	<nav>
+		<div class="weather__header">
+			<h2>
+				<i class="fa fa-cloud-sun-rain"></i>
+				<span>MY<span class="wea">WEATHER</span></span>
+			</h2>
+		</div>
+
+	</nav>
+
+
+	<div class="app-wrap">
+		<header>
+			<label>
+				type your contry or city
+			<input type="text" autocomplete="off" class="search-box" placeholder="Search for the city.........">
+		</label>
+		</header>
+
+		<main>
+			<section class="location">
+				<div class="city"></div>
+				<div class="date"></div>
+			</section>
+
+			<div class="current">
+				<div class="temp"></div>
+
+				<div class="weather"></div>
+
+				<div class="hi-low"></div>
+				<div id="record">
+					<div class="cit"></div>
+					<div class="dat"></div>
+					<div class="curren"></div>
+					<div class="tem"></div>
+					<div class="weathe"></div>
+					<div class="hi-lo"></div>
+				</div>
+
+			</div>
+		</main>
+	</div>
+
+		<link rel="manifest" href="/manifest.json">
+
+	
+	<script async src="weather.js"></script>
+<script async src="storage.js"></script>
+
+  <script src="https://javascript.info/article/script-async-defer/long.js?speed=1"></script>
+
+
+
+</body>
+</html>
